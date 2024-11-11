@@ -1,12 +1,12 @@
 
-# TechFolio Hub
-TechFolio Mobile App.
+# Bookish App
+Bookish Mobile App.
 
 # Features
-* Share Projects
-* Message other developers
-* Rate others work
-* Search other developers
+* Extensive Book Library
+* Personalized Recommendations
+* Reviews and Ratings
+* Author Profiles
 
 # Course Overview
 * Basic React Native Components

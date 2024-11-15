@@ -20,16 +20,19 @@ Bookish Mobile App.
 * HTML, CSS and JS
 
 # Home Screen
-<img src="assets/screenshot/onboarding.jpg">  
+<img src="assets/screenshot/onboarding.png">  
+
+# Welcome Screen Screen
+<img src="assets/screenshot/welcome.png">  
 
 # Sign Up Screen
-<img src="assets/screenshot/signup.jpg">  
+<img src="assets/screenshot/signup.png">  
 
-# Sign In Screen
-<img src="assets/screenshot/login.jpg">  
+# One Time Pin (OTP) Screen
+<img src="assets/screenshot/otp.png">  
 
-# Tabs Screen
-<img src="assets/screenshot/tabs.jpg">  
+# Log In Screen
+<img src="assets/screenshot/login.png"> 
 
 # Walkthrough
 

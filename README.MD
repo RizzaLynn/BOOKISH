@@ -30,3 +30,7 @@ Bookish Mobile App.
 
 # Tabs Screen
 <img src="assets/screenshot/tabs.jpg">  
+
+# Walkthrough
+
+[Bookish App Walkthrough]()

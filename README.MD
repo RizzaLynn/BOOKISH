@@ -36,4 +36,4 @@ Bookish Mobile App.
 
 # Walkthrough
 
-[Bookish App Walkthrough]()
+[Bookish App Walkthrough](https://youtu.be/TznlX26O4AE)

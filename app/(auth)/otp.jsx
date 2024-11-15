@@ -7,7 +7,7 @@ const otp = () => {
   return (
     <SafeAreaView className="flex-1 items-center justify-center bg-indigo-200">
     <View className="items-center justify-center">
-        <Image source={require('../assets/img2.png')} style={{height: 223, width:350, bottom: 80}}/>
+        <Image source={require('../../assets/img2.png')} style={{height: 223, width:350, bottom: 80}}/>
         <Text className="text-2xl font-bold bottom-12" style={{bottom: 50}}>
           OTP Verification
         </Text>

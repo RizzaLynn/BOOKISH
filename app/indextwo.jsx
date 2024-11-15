@@ -1,9 +1,9 @@
 import { StyleSheet, Image, SafeAreaView, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
-import { Link, useNavigation } from 'expo-router'
+import { Link, router } from 'expo-router'
+import CustomButton from '../components/CustomButton'
 
 const index = () => {
-  const navigation = useNavigation();
   return (
     <SafeAreaView className="flex-1 items-center justify-center bg-indigo-200">
     <View className="items-center justify-center">
@@ -20,15 +20,14 @@ const index = () => {
               <Text className="font-bold">books  you  could  wish  for.  Happy reading!</Text>
         
     </View>
-    <View style={{width: 300, top: 155}} classname="space-y-4">
-    <TouchableOpacity 
-      onPress={() => navigation.navigate('signup')}
-        className="py-3 bg-indigo-300 rounded-xl mt-5">
-        <Text style={{fontSize: 16, fontWeight: "bold", marginLeft: 98}}>
-        Continue Here
-        </Text>
-    </TouchableOpacity>
-    </View>
+      <View style={{width: 300, top: 166}} classname="space-y-4">
+        <CustomButton
+          title="Continue Here"
+          handlePress={() => router.push('/(auth)/signup')}
+          containerStyles={{width: 300}}
+        >
+        </CustomButton>
+      </View>
     </SafeAreaView>
   )
 }

@@ -52,15 +52,19 @@ const MainLayout = () => {
 
 
     return (
+      <>
         <Stack>
             <Stack.Screen name='index' options={{headerShown:false}}/>
             <Stack.Screen name='indextwo' options={{headerShown:false}}/>
-            <Stack.Screen name='login' options={{headerShown:false}}/>
-            <Stack.Screen name='signup' options={{headerShown:false}}/>
-            <Stack.Screen name='otp' options={{headerShown:false}}/>
             <Stack.Screen name='genres' options={{headerShown:false}}/>
             <Stack.Screen name='(tabs)' options={{headerShown:false}}/>
-            </Stack>
+            <Stack.Screen name='(auth)' options={{headerShown:false}}/>
+            <Stack.Screen name="login" options={{headerShown:false}}/>
+            <Stack.Screen name="signup" options={{headerShown:false}}/>
+            <Stack.Screen name="otp" options={{headerShown:false}}/>
+        </Stack>
+        <StatusBar backgroundColor="#C7D2FE" style="dark"/>
+      </>
     )
 }
 
